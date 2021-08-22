@@ -20,16 +20,35 @@
       "Open Sans", "Helvetica Neue", sans-serif;
   }
   
-  .main-container{
+  .main-container {
     border-radius: 5px;
     background-color:#a9d6e5 ;
     margin: 30px auto;
     width: 850px;      
   }
+
+  @media only screen and (max-width: 600px){
+    .main-container{
+      border-radius: 5px;
+      background-color:#a9d6e5 ;
+      margin: 30px auto;
+      width: 450px;  
+    }
+  }
+  
   .container {
     background-color:#a9d6e5 ;
     margin: 30px auto;
     width: 800px;
+  }
+
+  @media only screen and (max-width: 600px){
+    .container{
+      border-radius: 5px;
+      background-color:#a9d6e5 ;
+      margin: 30px auto;
+      width: 420px;  
+    }
   }
   
   h1 {
